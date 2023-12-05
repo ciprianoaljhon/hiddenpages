@@ -10,7 +10,7 @@ import DotIndicator from "../../components/DotIndicator";
 import React, { useEffect, useState } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import axios from "axios";
-import { baseURL } from "../../config/data";
+import { baseURL } from "../../config/data.js";
 import { useLoggedInContext } from "../../hooks/LoggedInContext";
 import { useDataContext } from "../../hooks/DataProvider";
 import img1 from "../../assets/display/img1.png";

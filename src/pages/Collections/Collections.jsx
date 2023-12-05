@@ -29,7 +29,7 @@ function Collections() {
             <FilterGroup></FilterGroup>
             <div className="flex flex-col h-full py-6 px-10 bg-neutral-1 rounded-r-xl">
               <div className="mb-4 flex items-center justify-center ">
-                <h4 className="mr-auto">All Collections</h4>
+                <h4 className="mr-auto">Collections</h4>
                 <div>
                   <select
                     name="sorting"

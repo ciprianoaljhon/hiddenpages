@@ -64,27 +64,6 @@ function OrderForm() {
           rows={4}
         ></textarea>
       </div>
-
-      <div className="mb-4">
-        <label
-          htmlFor="paymentMethod"
-          className="block text-sm font-medium mb-1"
-        >
-          Payment Method
-        </label>
-        <select
-          id="paymentMethod"
-          value={paymentMethod}
-          onChange={handlePaymentMethodChange}
-          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-        >
-          <option value="creditCard">Credit Card</option>
-          <option value="paypal">PayPal</option>
-          {/* Add more payment methods as needed */}
-        </select>
-      </div>
-
-      <button className="primary-btn">Place Order</button>
     </>
   );
 }
