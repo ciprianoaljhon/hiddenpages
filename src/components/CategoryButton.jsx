@@ -7,7 +7,7 @@ function CategoryButton({ category = "default" }) {
   const current = colors[category.toLowerCase()];
   return (
     <NavLink
-      to={"/collections"}
+      to={`/collections?categories=${category}`}
       className="category-btn w-56 h-48  p-8 text-left hover:scale-110 hover:shadow-2xl  "
       style={{
         backgroundColor: current.bgColor,
