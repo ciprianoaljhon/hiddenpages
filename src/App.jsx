@@ -18,6 +18,7 @@ import { CartProvider } from "./hooks/useCart.jsx";
 import { PopupProvider } from "./hooks/PopupContext.jsx";
 import PaymentPopup from "./components/PaymentPopup.jsx";
 import OrderHistory from "./pages/Orders/OrderHistory.jsx";
+import FilteredCollection from "./pages/Collections/FilteredCollection.jsx";
 function App() {
   return (
     <DataProvider>
@@ -50,6 +51,10 @@ function App() {
                   <Route path="/community" element={<Community />}></Route>
                   <Route path="/cart/" element={<Cart></Cart>}></Route>
                   <Route path="/profile/" element={<Profile></Profile>}></Route>
+                  <Route
+                    path="/filtered-collections"
+                    element={<FilteredCollection></FilteredCollection>}
+                  ></Route>
                   <Route path="*">Page Not Found</Route>
                 </Routes>
                 <Footer></Footer>

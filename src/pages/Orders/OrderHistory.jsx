@@ -49,7 +49,7 @@ const OrderHistory = () => {
   console.log(orders);
 
   return (
-    <div className="w-full h-max px-4">
+    <div className="w-full h-max px-4 min-h-screen">
       {orders.length > 0 ? (
         <div className="container  w-full pt-24 items-center justify-center  ">
           <ul className=" flex flex-col gap-4">

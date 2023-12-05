@@ -50,6 +50,7 @@ function Home() {
   const [bookList, setBookList] = useState([]);
   const [month, setMonth] = useState("");
   const { fetchedData, refetch, loading } = useDataContext();
+  console.log(fetchedData);
   const session = JSON.parse(sessionStorage.getItem("sessionData"));
   console.log(session);
   useEffect(() => {
