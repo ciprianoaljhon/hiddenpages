@@ -97,7 +97,9 @@ const OrderHistory = () => {
           </ul>
         </div>
       ) : (
-        "No Orders"
+        <div className="h-screen w-full flex items-center justify-center">
+          <h1>No Orders</h1>
+        </div>
       )}
     </div>
   );
